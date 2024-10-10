@@ -1,4 +1,4 @@
-/* THE CODEEEEEEE */
+/* Assignment 1: Create a Responsive Layout */
 
 /*ABANDON ALL HOPE YE WHO ENTERS HERE*/
 
@@ -50,9 +50,9 @@ aside {
   width: 900px;
 }
 
-/* For devices less than 1000px wssssssside */
+/*devices less than 1000px */
 @media (max-width: 999px) {
-  /* le styles for medium screens brufihdsbfadiufiudahfiuadhfiuadhfiuad brudjs  */
+  /* for medium screens */
   body {
     font-size: 16px;
   }
@@ -84,9 +84,9 @@ aside {
   }
 }
 
-/* devicess 1000px wide */
+/* devices more than 1000px wide */
 @media (min-width: 1000px) {
-  /* the cool awesome nice stylees for lzarge screeens looooooooooooooool */
+  /* BIG Screens*/
   body {
     font-size: 18px;
   }
@@ -97,7 +97,9 @@ aside {
 }
 
 /* less than 768px wide */
+
 @media (max-width: 767px) {
+  /* small mobile screens */
   #container img {
     width: 650px;
     height: 650px;
