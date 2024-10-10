@@ -99,7 +99,7 @@ aside {
 /* less than 768px wide */
 
 @media (max-width: 767px) {
-  /* small mobile screens */
+  /* small mobile screens  */
   #container img {
     width: 650px;
     height: 650px;
