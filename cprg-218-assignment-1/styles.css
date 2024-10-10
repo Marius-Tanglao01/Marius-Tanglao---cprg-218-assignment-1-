@@ -1,0 +1,123 @@
+/* THE CODEEEEEEE */
+
+/*ABANDON ALL HOPE YE WHO ENTERS HERE*/
+
+* {
+  font-family: "Helvetica", sans-serif;
+}
+
+.header-container {
+  text-align: center;
+  background-color: #120323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  color: #97bf04;
+}
+
+h1 {
+  display: flex;
+}
+
+#container img {
+  border: 5px solid #d9043d;
+  width: 600px;
+  height: 600px;
+  margin-right: 20px;
+}
+
+figure {
+  display: flex;
+}
+
+#container {
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  background-color: #d9043d;
+  color: #ffffff;
+  padding: 50px;
+}
+
+aside {
+  padding: 20px;
+  margin: 20px;
+  background-color: #97bf04;
+  width: 900px;
+}
+
+/* For devices less than 1000px wssssssside */
+@media (max-width: 999px) {
+  /* le styles for medium screens brufihdsbfadiufiudahfiuadhfiuadhfiuad brudjs  */
+  body {
+    font-size: 16px;
+  }
+
+  #container img {
+    border: 5px solid #d9043d;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  .container {
+    padding: 15px;
+  }
+
+  figcaption {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+
+  #container {
+    flex-direction: column;
+  }
+
+  aside {
+    padding: 20px;
+    margin: 20px;
+    background-color: #97bf04;
+    width: auto;
+  }
+}
+
+/* devicess 1000px wide */
+@media (min-width: 1000px) {
+  /* the cool awesome nice stylees for lzarge screeens looooooooooooooool */
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+}
+
+/* less than 768px wide */
+@media (max-width: 767px) {
+  #container img {
+    width: 650px;
+    height: 650px;
+  }
+
+  figure {
+    flex-direction: column;
+  }
+
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px;
+  }
+
+  aside {
+    padding: 20px;
+    margin: 20px;
+    background-color: #97bf04;
+    width: auto;
+  }
+}
